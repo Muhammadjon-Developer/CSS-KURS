@@ -1,0 +1,13 @@
+div {
+  width: 25rem;
+  height: 25rem;
+  background-color: teal;
+}
+
+.box-1 {
+  background-color: burlywood;    /* agarda class berilgan elmentga stil bermoqchi bo'lsangiz css da uning classi nomini oldiga . qo'yish kerak */
+}
+
+.text-1 {
+  font-size: 3rem;
+}
