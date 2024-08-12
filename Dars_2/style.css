@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  background-color: teal;  /* div ga rang berish */
+  width: 25rem;   /* bu divga kenglik(eni) berish */
+  height: 25rem;  /* bu divga balandlik berish */
+}
