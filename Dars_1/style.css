@@ -1,0 +1,14 @@
+* {                      /** bo'shliqlarni olib tashlaydi va stil larni to'g'ri ishlashini taminlaydi */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;   
+}
+
+h1 {
+  color: red;
+}
+
+p {
+  color: blue;
+  font-size: 25px; 
+}
