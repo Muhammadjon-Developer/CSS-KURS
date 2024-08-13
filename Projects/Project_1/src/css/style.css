@@ -1,3 +1,7 @@
 body {
   background-color: #FFE2B0;  /* butun web-sahifamizni rangini o'zgartiradi */
 }
+
+header {
+  text-align: center;
+}
