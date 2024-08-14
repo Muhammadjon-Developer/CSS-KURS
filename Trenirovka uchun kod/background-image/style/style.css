@@ -1,0 +1,11 @@
+.border {
+  width: 1516px;
+  height: 500px;
+  border: 3px solid black;
+  background-image: url(../img/01-Logo.svg);  /* css da web sahifamizga rasm qo'yish */
+  background-repeat: no-repeat;  /* agar rasm kichik bo'lsa uni qayta-qayta takrorlanishini oldini oladi */
+  /* background-position: center;  rasmni o'rtaga olib keladi */
+  /* background-position: 500px 100px;  rasmni px lar yordami joyini o'zgartirish */
+  /* background-size: contain;  rasmni razmerlarini boshqarish uchun */
+   background-attachment: fixed;  /* saytni scroll qilganimizdagi rasmni container ohirigacha tushadi */
+}
