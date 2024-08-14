@@ -6,3 +6,7 @@ header {
   text-align: center;  /* elementni joyini o'zgartirish (center: o'rtaga) */
 }
 
+ul {
+  /* list-style-type: none;  nuqtalarni yo'qotish li teglarini yonidan = 1 - usul */
+  list-style: none;  /* nuqtalarni yo'qotish li teglarini yonidan = 2 - usul */ 
+}
