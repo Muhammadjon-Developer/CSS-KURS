@@ -1,19 +1,45 @@
 body {
-  background-color: #FFE2B0;  /* butun web-sahifamizni rangini o'zgartiradi */
+  background-color: #ffe2b0; /* butun web-sahifamizni rangini o'zgartiradi */
 }
 
 header {
-  text-align: center;  /* elementni joyini o'zgartirish (center: o'rtaga) */
+  text-align: center; /* elementni joyini o'zgartirish (center: o'rtaga) */
 }
 
 ul {
   /* list-style-type: none;  nuqtalarni yo'qotish li teglarini yonidan = 1 - usul */
-  list-style: none;  /* nuqtalarni yo'qotish li teglarini yonidan = 2 - usul */ 
+  list-style: none; /* nuqtalarni yo'qotish li teglarini yonidan = 2 - usul */
   text-align: center;
 }
 
 a {
   color: black;
-  text-decoration: none;  /* a tegi ning tagida chiziqlarni yo'qotadi */
-  font-size: 18px;  /* shriftning o'lchami */
+  text-decoration: none; /* a tegi ning tagida chiziqlarni yo'qotadi */
+  font-size: 18px; /* shriftning o'lchami */
+}
+
+div {
+  /* margin-top: 70px;  /* margin-top - tashqi bo'shliq tepadan */
+  /* margin-left: 50px;   margin-left - tashqi bo'shliq chapdan */
+  /* margin-right: 50px;  margin-right - tashqi bo'shliq o'ngdan */ 
+  margin: 30px 50px 50px 0px; /* margin-top, right, bottom, left barchasini 1 ta margin ga yozish soat strelkasi bo'ylab (padding da ham huddi shunaqa bir-xil): 
+  1. margin-top
+  2. margin-right
+  3. margin-bottom
+  4. margin-left */
+
+  /* padding-top: 30px;  padding - ichki bo'shliq */
+  padding: 20px 10px 20px 10px;  /* padding da ham barchasini birlashtirib yozish margin bilan bir go'r */
+
+  /* border: ;  border - container ramkasi */
+  /* border-width: 3px;  /* border-width - ramka qalinligi */
+  /* border-color: black;  border-color - ramka rangi */
+  /* border-style: solid;  border-style - ramka ko'rinish stili */ 
+
+  border: 5px dashed red;  /* border da ham barchasini birlashtirib yozish 
+  1. border-width
+  2. border-style
+  3. border-color */
+
+  background-color: white;  /* orqa fonga rang berish */
 }
