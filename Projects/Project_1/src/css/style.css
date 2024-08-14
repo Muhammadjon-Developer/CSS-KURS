@@ -4,12 +4,19 @@ body {
 
 header {
   text-align: center; /* elementni joyini o'zgartirish (center: o'rtaga) */
+  margin-bottom: 20px;
 }
 
 ul {
   /* list-style-type: none;  nuqtalarni yo'qotish li teglarini yonidan = 1 - usul */
   list-style: none; /* nuqtalarni yo'qotish li teglarini yonidan = 2 - usul */
   text-align: center;
+  padding: 0px;
+}
+
+li {
+  display: inline;
+  margin-right: 100px;
 }
 
 a {
@@ -18,12 +25,6 @@ a {
   font-size: 18px; /* shriftning o'lchami */
 }
 
-.box-1 {
-  background-color: red;
-  margin-bottom: 100px;   /* bu margin pastdagi stildagi margin ni yo'q qilib tashlaydi agar qaysi birini razmerlari ko'p bo'lsa faqat shuni qoldiradi */
-}
-
-.box-2 {
-  background-color: blue;
-  margin-top: 40px;
+nav {
+  margin-bottom: 20px;
 }
