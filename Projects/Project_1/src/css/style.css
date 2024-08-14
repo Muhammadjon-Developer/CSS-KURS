@@ -9,4 +9,11 @@ header {
 ul {
   /* list-style-type: none;  nuqtalarni yo'qotish li teglarini yonidan = 1 - usul */
   list-style: none;  /* nuqtalarni yo'qotish li teglarini yonidan = 2 - usul */ 
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;  /* a tegi ning tagida chiziqlarni yo'qotadi */
+  font-size: 18px;  /* shriftning o'lchami */
 }
