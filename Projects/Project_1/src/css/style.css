@@ -18,36 +18,12 @@ a {
   font-size: 18px; /* shriftning o'lchami */
 }
 
-div {
-  /* margin-top: 70px;  /* margin-top - tashqi bo'shliq tepadan */
-  /* margin-left: 50px;   margin-left - tashqi bo'shliq chapdan */
-  /* margin-right: 50px;  margin-right - tashqi bo'shliq o'ngdan */ 
-  margin: 30px 50px 50px 0px; /* margin-top, right, bottom, left barchasini 1 ta margin ga yozish soat strelkasi bo'ylab (padding da ham huddi shunaqa bir-xil): 
-  1. margin-top
-  2. margin-right
-  3. margin-bottom
-  4. margin-left */
-
-  /* padding-top: 30px;  padding - ichki bo'shliq */
-  padding: 20px 10px 20px 10px;  /* padding da ham barchasini birlashtirib yozish margin bilan bir go'r */
-
-  /* border: ;  border - container ramkasi */
-  /* border-width: 3px;  /* border-width - ramka qalinligi */
-  /* border-color: black;  border-color - ramka rangi */
-  /* border-style: solid;  border-style - ramka ko'rinish stili */ 
-
-  border: 5px dashed red;  /* border da ham barchasini birlashtirib yozish 
-  1. border-width
-  2. border-style
-  3. border-color */
-
-  background-color: white;  /* orqa fonga rang berish */
-  /* display: inline;   luboy elementni inline holatiga o'tkazish */
+.box-1 {
+  background-color: red;
+  margin-bottom: 100px;   /* bu margin pastdagi stildagi margin ni yo'q qilib tashlaydi agar qaysi birini razmerlari ko'p bo'lsa faqat shuni qoldiradi */
 }
 
-.test {
-  /* display: block;   luboy elementni blok holatiga o'tkazish */
-  display: inline-block;  /* luboy elementni bir vaqtning o'zida ham inline va blok holatiga o'tkazish */
-  margin: 50px 0px 50px;
-  width: 500px;
+.box-2 {
+  background-color: blue;
+  margin-top: 40px;
 }
