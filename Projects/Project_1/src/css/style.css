@@ -25,6 +25,15 @@ a {
   font-size: 18px; /* shriftning o'lchami */
 }
 
+a:hover {
+  color: red;
+  font-size: 100px;
+}
+
+li:last-child {
+  margin-right: 0px;
+}
+
 nav {
   margin-bottom: 20px;
 }
