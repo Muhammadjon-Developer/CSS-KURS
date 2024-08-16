@@ -47,11 +47,22 @@ nav {
   background-size: cover; */
   /* yuqoridagi kodni bitta background ichiga yozishimiz mumkin */
   background: url(../img/01-Fon-rasmi.jpg) center/cover no-repeat; /* background-image ishlatayotgan joyimizda background-position ni / (slesh) orqalai ajratib yozamiz */
+  position: relative;
 }
 
 .section-about__block {
+  position: absolute;
+  top: 349px;
+  left: 730px;
   width: 420px;
   height: 190px;
   background-image: linear-gradient(180deg, rgba(244, 213, 178, 0.8) 0%, rgba(234, 156, 65, 0.8) 100%);
+  padding-top: 15px;
 }
 
+.section-about__border {
+  width: 390px;
+  height: 10rem;  /* 10rem = 160px; 1rem = 16px */
+  border: 1px solid black;
+  margin: 0 auto;  /* block elementlarni gorizontal holatda tekis joylashtirish 0 = top, bottom uchun | auto = right, left uchun lekin bu ishlashi uchun  margin: 0 auto; yozilayotgan elementingizni konkret width:; bo'lishi shart yo'qsa ishlamaydi */
+}
