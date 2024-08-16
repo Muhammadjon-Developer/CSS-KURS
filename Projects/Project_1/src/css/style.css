@@ -18,7 +18,7 @@ ul {
   /* list-style-type: none;  nuqtalarni yo'qotish li teglarini yonidan = 1 - usul */
   list-style: none; /* nuqtalarni yo'qotish li teglarini yonidan = 2 - usul */
   text-align: center;
-  padding: 0px;
+  padding: 0;
 }
 
 li {
@@ -33,7 +33,7 @@ a {
 }
 
 li:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 nav {
@@ -57,6 +57,7 @@ nav {
   width: 420px;
   height: 190px;
   background-image: linear-gradient(180deg, rgba(244, 213, 178, 0.8) 0%, rgba(234, 156, 65, 0.8) 100%);
+  text-align: center;
   padding-top: 15px;
 }
 
@@ -65,4 +66,15 @@ nav {
   height: 10rem;  /* 10rem = 160px; 1rem = 16px */
   border: 1px solid black;
   margin: 0 auto;  /* block elementlarni gorizontal holatda tekis joylashtirish 0 = top, bottom uchun | auto = right, left uchun lekin bu ishlashi uchun  margin: 0 auto; yozilayotgan elementingizni konkret width:; bo'lishi shart yo'qsa ishlamaydi */
+  padding: 17px 0 0 28px;
+  text-align: left;
+}
+
+.section-about__title {
+  font-size: 36px;
+  margin-bottom: 9px;
+}
+
+.section-about__text {
+  font-size: 12px;
 }
