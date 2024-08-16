@@ -138,6 +138,10 @@ section_description__icon-box img {
   margin: 0 auto;
 }
 
+.section-map {
+  margin-bottom: 20px;
+}
+
 .section-map__title {
   margin-bottom: 20px;
   text-align: center;
@@ -147,4 +151,16 @@ section_description__icon-box img {
 iframe {
   display: block;
   margin: 0 auto;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #999999;
+  width: 64rem;  /* 64rem = 1024px */
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+footer {
+  height: 5rem;  /* 5rem = 80px */
 }
