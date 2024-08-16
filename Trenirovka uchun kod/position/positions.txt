@@ -1,0 +1,8 @@
+position: static;   Elementning default (asosiy) holati hisoblanadi
+position: relative; Element o'z joyiga nisbatan joylashtirilishi mumkin. Elementlar oqimidan qochib ketmaydi
+position: absolute; Elementni oqimdan chiqib ketadi.
+Agar asosiy element berilmagan bo'lsa, body dan uzoqda joylashgan
+pozitsiya xususiyati: nisbiy
+position: fixed;  Belgilangan joyda aylantirilganda elementni tuzatadi.
+position: sticky; Sahifani biror elementgacha aylantirganimizda,
+position: sticky, position: fixed ga aylanadi
