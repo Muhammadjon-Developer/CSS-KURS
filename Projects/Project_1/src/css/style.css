@@ -67,7 +67,7 @@ nav {
   height: 10rem;  /* 10rem = 160px; 1rem = 16px */
   border: 1px solid black;
   margin: 0 auto;  /* block elementlarni gorizontal holatda tekis joylashtirish 0 = top, bottom uchun | auto = right, left uchun lekin bu ishlashi uchun  margin: 0 auto; yozilayotgan elementingizni konkret width:; bo'lishi shart yo'qsa ishlamaydi */
-  padding: 17px 0 0 28px;
+  padding: 0 0 0 28px;
   text-align: left;
 }
 
@@ -80,10 +80,13 @@ nav {
   font-size: 12px;
 }
 
+.section_description {
+  margin-bottom: 20px;
+}
+
 .section_description__icon-box {
   text-align: center;
 }
-
 
 /* img {
 
@@ -132,5 +135,16 @@ section_description__icon-box img {
   margin: 0;
   text-align: center;  
   width: 1000px;
+  margin: 0 auto;
+}
+
+.section-map__title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 36px;
+}
+
+iframe {
+  display: block;
   margin: 0 auto;
 }
