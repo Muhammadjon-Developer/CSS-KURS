@@ -48,6 +48,7 @@ nav {
   /* yuqoridagi kodni bitta background ichiga yozishimiz mumkin */
   background: url(../img/01-Fon-rasmi.jpg) center/cover no-repeat; /* background-image ishlatayotgan joyimizda background-position ni / (slesh) orqalai ajratib yozamiz */
   position: relative;
+  margin-bottom: 20px;
 }
 
 .section-about__block {
@@ -77,4 +78,37 @@ nav {
 
 .section-about__text {
   font-size: 12px;
+}
+
+.section_description__icon-box {
+  text-align: center;
+}
+
+
+/* img {
+
+} - Teg selectori
+
+.section_description {
+
+} - Class selectori 
+
+#id {
+
+} - Id selectori
+
+* {
+} - Barcha elementga yuzlanish selectori
+
+section_description__icon-box img {
+
+} - Ota (Ona) divning ichidagi elementlarga yuzlanish */ 
+
+
+.section_description__icon-box img {
+  margin-right: 76px;
+}
+
+.section_description__icon-box img:last-child {
+  margin-right: 0;
 }
