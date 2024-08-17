@@ -2,7 +2,38 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} 
+}
+
+html {
+  font-family: "Roboto-Font";
+}
+
+@font-face { 
+ font-family: "Philosopher";  /* bu yerga shriftimizga istalgan nom berishimiz mumkin va uni shu nom bilan ishlatamiz  */
+ src: local("Philosopher");  /* agar bizning saytimizga kirgan qurulmada Philosopher shrifti bo'lsa biz uni anashu qurulmadangi Philosopher ni ishlatamiz bu bizga saytimizni tezroq ishlatishga yordam beradi  */
+ src: url(../fonts/Philosopher-Regular.ttf);  /* agarda bizining saytga kirgan qurulmada Philosopher shrifti bo'lmasa biz uni bizning saytimizdagi Philosopher ni olib ko'rsatamiz */
+}  
+
+@font-face {
+  font-family: "Roboto-Font";
+  src: local("Roboto");
+  src: url("../fonts/Roboto-Regular.eot");
+  src: url("../fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Roboto-Regular.woff") format("woff"),
+    url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Font";
+  src: url("../fonts/Roboto-Bold.eot");
+  src: url("../fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Roboto-Bold.woff") format("woff"),
+    url("../fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
 
 body {
   padding-top: 13px;
@@ -30,6 +61,7 @@ a {
   color: black;
   text-decoration: none; /* a tegi ning tagida chiziqlarni yo'qotadi */
   font-size: 18px; /* shriftning o'lchami */
+  font-weight: 700;
 }
 
 li:last-child {
@@ -57,16 +89,20 @@ nav {
   left: 50%;
   width: 420px;
   height: 190px;
-  background-image: linear-gradient(180deg, rgba(244, 213, 178, 0.8) 0%, rgba(234, 156, 65, 0.8) 100%);
+  background-image: linear-gradient(
+    180deg,
+    rgba(244, 213, 178, 0.8) 0%,
+    rgba(234, 156, 65, 0.8) 100%
+  );
   text-align: center;
   padding-top: 15px;
 }
 
 .section-about__border {
   width: 390px;
-  height: 10rem;  /* 10rem = 160px; 1rem = 16px */
+  height: 10rem; /* 10rem = 160px; 1rem = 16px */
   border: 1px solid black;
-  margin: 0 auto;  /* block elementlarni gorizontal holatda tekis joylashtirish 0 = top, bottom uchun | auto = right, left uchun lekin bu ishlashi uchun  margin: 0 auto; yozilayotgan elementingizni konkret width:; bo'lishi shart yo'qsa ishlamaydi */
+  margin: 0 auto; /* block elementlarni gorizontal holatda tekis joylashtirish 0 = top, bottom uchun | auto = right, left uchun lekin bu ishlashi uchun  margin: 0 auto; yozilayotgan elementingizni konkret width:; bo'lishi shart yo'qsa ishlamaydi */
   padding: 0 0 0 28px;
   text-align: left;
 }
@@ -74,6 +110,7 @@ nav {
 .section-about__title {
   font-size: 36px;
   margin-bottom: 9px;
+  font-family: "Philosopher";
 }
 
 .section-about__text {
@@ -105,7 +142,7 @@ nav {
 
 section_description__icon-box img {
 
-} - Ota (Ona) divning ichidagi elementlarga yuzlanish */ 
+} - Ota (Ona) divning ichidagi elementlarga yuzlanish */
 
 .section_description__icon-box {
   text-align: center;
@@ -121,9 +158,10 @@ section_description__icon-box img {
 }
 
 .section_description__title {
-  font-size: 6rem;  /* 6rem = 96px */
+  font-size: 6rem; /* 6rem = 96px */
   margin: 0;
-  text-align: center;  /* biz text-align hossini ishlata oldik chuki h2 blok element hisoblanadi biz uni ichidagi tekstni centerlashtirdik */
+  text-align: center; /* biz text-align hossini ishlata oldik chuki h2 blok element hisoblanadi biz uni ichidagi tekstni centerlashtirdik */
+  font-family: "Philosopher";
 }
 
 .red {
@@ -133,7 +171,7 @@ section_description__icon-box img {
 .section_description__text {
   font-size: 18px;
   margin: 0;
-  text-align: center;  
+  text-align: center;
   width: 1000px;
   margin: 0 auto;
 }
@@ -146,6 +184,7 @@ section_description__icon-box img {
   margin-bottom: 20px;
   text-align: center;
   font-size: 36px;
+  font-family: "Philosopher";
 }
 
 iframe {
@@ -156,11 +195,11 @@ iframe {
 hr {
   border: none;
   border-top: 1px solid #999999;
-  width: 64rem;  /* 64rem = 1024px */
+  width: 64rem; /* 64rem = 1024px */
   margin: 0 auto;
   margin-bottom: 20px;
 }
 
 footer {
-  height: 5rem;  /* 5rem = 80px */
+  height: 5rem; /* 5rem = 80px */
 }
